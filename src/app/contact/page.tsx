@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Contact Rannco Roofing | Free Estimates in Southern Illinois",
   description:
-    "Contact Rannco Roofing for a FREE roof inspection & estimate. Call (618) 218-4975 or email us. Serving Benton, Marion, Carbondale, Herrin, Murphysboro & all of Southern Illinois. 24/7 emergency service available!",
+    "Contact Rannco Roofing for a FREE roof inspection & estimate. Call (618) 594-1178 or email us. Serving Benton, Marion, Carbondale, Herrin, Murphysboro & all of Southern Illinois. 24/7 emergency service available!",
   keywords: [
     "contact roofer Benton IL",
     "free roof estimate Marion",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us for a Free Roofing Estimate | Rannco Roofing",
     description:
-      "Get a FREE roof inspection & estimate. Call (618) 218-4975. Serving all of Southern Illinois with 24/7 emergency service.",
+      "Get a FREE roof inspection & estimate. Call (618) 594-1178. Serving all of Southern Illinois with 24/7 emergency service.",
   },
 };
 
@@ -40,18 +40,18 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:chad@ranncoroofing.com"
+                href="mailto:chood@rannco.com"
                 className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8"
               >
                 <Mail className="h-5 w-5" />
                 Email Us
               </a>
               <a
-                href="tel:+16182184975"
+                href="tel:+16185941178"
                 className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-transparent text-white border border-white hover:bg-white hover:text-foreground h-11 px-8"
               >
                 <Phone className="h-5 w-5" />
-                (618) 218-4975
+                (618) 594-1178
               </a>
             </div>
           </div>
@@ -70,10 +70,10 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Email</h3>
                   <a
-                    href="mailto:chad@ranncoroofing.com"
+                    href="mailto:chood@rannco.com"
                     className="text-primary hover:text-primary/80 transition-colors text-lg font-medium"
                   >
-                    chad@ranncoroofing.com
+                    chood@rannco.com
                   </a>
                   <p className="text-sm text-muted-foreground mt-1">
                     We respond within 24 hours
@@ -88,10 +88,10 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                   <a
-                    href="tel:+16182184975"
+                    href="tel:+16185941178"
                     className="text-primary hover:text-primary/80 transition-colors text-lg font-medium"
                   >
-                    (618) 218-4975
+                    (618) 594-1178
                   </a>
                   <p className="text-sm text-muted-foreground mt-1">
                     24/7 Emergency Line Available
@@ -203,13 +203,13 @@ export default function ContactPage() {
                 Don&apos;t see your city listed? Give us a call - we may still be able to help!
               </p>
               <a
-                href="tel:+16182184975"
+                href="tel:+16185941178"
                 className="inline-flex items-center gap-2 mt-4 text-primary font-semibold hover:text-primary/80 transition-colors"
               >
                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                (618) 218-4975
+                (618) 594-1178
               </a>
             </div>
           </div>

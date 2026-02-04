@@ -122,8 +122,8 @@ const jsonLd = {
   image: `${siteUrl}/og-image.jpg`,
   "@id": siteUrl,
   url: siteUrl,
-  telephone: "+1-618-218-4975",
-  email: "chad@ranncoroofing.com",
+  telephone: "+1-618-594-1178",
+  email: "chood@rannco.com",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Benton",

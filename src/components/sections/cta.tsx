@@ -16,18 +16,18 @@ export function CTA() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:chad@ranncoroofing.com"
+              href="mailto:chood@rannco.com"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-semibold text-base ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8"
             >
               <Mail className="h-5 w-5" />
               Email Us
             </a>
             <a
-              href="tel:+16182184975"
+              href="tel:+16185941178"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-semibold text-base ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-transparent text-white border border-white hover:bg-white hover:text-foreground h-11 px-8"
             >
               <Phone className="h-5 w-5" />
-              (618) 218-4975
+              (618) 594-1178
             </a>
           </div>
           <p className="mt-8 text-background/60 text-sm">

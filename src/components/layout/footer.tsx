@@ -97,19 +97,19 @@ export function Footer() {
               <li className="flex items-start">
                 <Phone className="h-4 w-4 mr-3 mt-0.5 flex-shrink-0" />
                 <a
-                  href="tel:+16182184975"
+                  href="tel:+16185941178"
                   className="text-background/80 hover:text-white transition-colors text-sm"
                 >
-                  (618) 218-4975
+                  (618) 594-1178
                 </a>
               </li>
               <li className="flex items-start">
                 <Mail className="h-4 w-4 mr-3 mt-0.5 flex-shrink-0" />
                 <a
-                  href="mailto:chad@ranncoroofing.com"
+                  href="mailto:chood@rannco.com"
                   className="text-background/80 hover:text-white transition-colors text-sm"
                 >
-                  chad@ranncoroofing.com
+                  chood@rannco.com
                 </a>
               </li>
               <li className="flex items-start">

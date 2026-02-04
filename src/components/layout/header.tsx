@@ -50,14 +50,14 @@ export function Header() {
           {/* CTA and Phone */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:+16182184975"
+              href="tel:+16185941178"
               className="flex items-center text-sm font-medium text-foreground hover:text-primary"
             >
               <Phone className="h-4 w-4 mr-2" />
-              (618) 218-4975
+              (618) 594-1178
             </a>
             <a
-              href="mailto:chad@ranncoroofing.com"
+              href="mailto:chood@rannco.com"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
             >
               Get Started
@@ -107,14 +107,14 @@ export function Header() {
                 {/* Mobile Menu Footer */}
                 <div className="p-6 border-t border-border/40 bg-muted/30">
                   <a
-                    href="tel:+16182184975"
+                    href="tel:+16185941178"
                     className="flex items-center justify-center gap-2 py-3 text-base font-semibold text-primary hover:text-primary/80 transition-colors"
                   >
                     <Phone className="h-5 w-5" />
-                    (618) 218-4975
+                    (618) 594-1178
                   </a>
                   <a
-                    href="mailto:chad@ranncoroofing.com"
+                    href="mailto:chood@rannco.com"
                     onClick={() => setIsOpen(false)}
                     className="inline-flex items-center justify-center w-full whitespace-nowrap rounded-md text-base font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 mt-4"
                   >

@@ -44,13 +44,13 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-8 sm:mb-12 animate-fade-in-up animation-delay-600">
             <a
-              href="mailto:chad@ranncoroofing.com"
+              href="mailto:chood@rannco.com"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full sm:w-auto"
             >
               Get Started
             </a>
             <a
-              href="mailto:chad@ranncoroofing.com?subject=Roof%20Assessment%20Request"
+              href="mailto:chood@rannco.com?subject=Roof%20Assessment%20Request"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-transparent border border-white text-white hover:bg-white/10 h-10 px-8 py-2 w-full sm:w-auto"
             >
               Request Assessment
