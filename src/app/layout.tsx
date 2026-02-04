@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "Rannco Roofing - Southern Illinois Roofing Experts",
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
     title: "Rannco Roofing | #1 Roofing Contractor in Southern Illinois",
     description:
       "Southern Illinois' most trusted roofing contractor. Expert roof repairs, replacements & installations. 70+ years experience. Free estimates.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.svg"],
   },
   robots: {
     index: true,
@@ -125,7 +125,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   name: "Rannco Roofing",
-  image: `${siteUrl}/og-image.jpg`,
+  image: `${siteUrl}/og-image.svg`,
   "@id": siteUrl,
   url: siteUrl,
   telephone: "+1-618-594-1178",
