@@ -126,14 +126,16 @@ const jsonLd = {
   email: "chood@rannco.com",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Benton",
+    streetAddress: "505 E Walnut St",
+    addressLocality: "Harrisburg",
     addressRegion: "IL",
+    postalCode: "62946",
     addressCountry: "US",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 38.0048,
-    longitude: -88.9201,
+    latitude: 37.7384,
+    longitude: -88.5406,
   },
   areaServed: [
     { "@type": "City", name: "Benton", addressRegion: "IL" },

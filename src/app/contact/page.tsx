@@ -105,7 +105,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Location</h3>
-                  <p className="text-foreground">Benton, IL 62812</p>
+                  <p className="text-foreground">505 E Walnut St</p>
+                  <p className="text-foreground">Harrisburg, IL 62946</p>
                   <p className="text-sm text-muted-foreground mt-1">
                     Serving all of Southern Illinois
                   </p>
@@ -186,14 +187,14 @@ export default function ContactPage() {
             {/* Google Maps Embed */}
             <div className="aspect-[16/9] w-full rounded-xl overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100082.04889773044!2d-89.02010069726562!3d37.99730000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887850e1b5a5b86b%3A0x9d8c4b8b8b8b8b8b!2sBenton%2C%20IL%2062812!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.8764!2d-88.5428!3d37.7384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8877b0c9a1c8e8e7%3A0x1234567890abcdef!2s505%20E%20Walnut%20St%2C%20Harrisburg%2C%20IL%2062946!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Rannco Roofing Service Area - Benton, IL"
+                title="Rannco Roofing - 505 E Walnut St, Harrisburg, IL"
               />
             </div>
 

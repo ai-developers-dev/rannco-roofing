@@ -115,8 +115,9 @@ export function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-4 w-4 mr-3 mt-0.5 flex-shrink-0" />
                 <span className="text-background/80 text-sm">
-                  Serving Southern Illinois<br />
-                  Benton, Marion, Carbondale & Surrounding Areas
+                  505 E Walnut St<br />
+                  Harrisburg, IL 62946<br />
+                  Serving All of Southern Illinois
                 </span>
               </li>
               <li className="flex items-start">
