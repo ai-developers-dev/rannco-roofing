@@ -19,30 +19,36 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ranncoroofing.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Rannco Roofing | #1 Roofing Contractor in Southern Illinois",
+    default: "Rannco Roofing | #1 Roofing Contractor in Harrisburg & Southern Illinois",
     template: "%s | Rannco Roofing",
   },
   description:
-    "Southern Illinois' most trusted roofing contractor. Expert roof repairs, replacements & installations in Benton, Marion, Carbondale, Herrin, Murphysboro & surrounding areas. 70+ years experience. Free estimates. Licensed & insured.",
+    "Harrisburg IL's trusted roofing contractor. Call (618) 594-1178 for FREE estimates! Expert roof repairs, replacements & installations serving Harrisburg, Marion, Carbondale, Benton & all Southern Illinois. 70+ years experience. Licensed & insured.",
   keywords: [
-    // Primary keywords
+    // Primary keywords - Harrisburg focus
+    "roofing contractor Harrisburg IL",
+    "roofer Harrisburg Illinois",
+    "roof repair Harrisburg IL",
+    "roof replacement Harrisburg",
+    "roofing company Harrisburg IL",
+    // Regional keywords
     "roofing contractor Southern Illinois",
-    "roof repair Benton IL",
-    "roof replacement Marion IL",
-    "roofing company Carbondale IL",
+    "roof repair Marion IL",
+    "roof replacement Carbondale IL",
+    "roofing company Benton IL",
     // Service keywords
     "residential roofing Southern Illinois",
-    "storm damage roof repair",
+    "storm damage roof repair Harrisburg",
     "emergency roof repair IL",
-    "roof inspection Benton",
-    "new roof installation Marion",
-    "shingle replacement Carbondale",
+    "roof inspection Harrisburg IL",
+    "new roof installation Southern Illinois",
+    "shingle replacement Harrisburg",
     "metal roofing Southern Illinois",
     "flat roof repair IL",
     // Location keywords
-    "roofer Benton Illinois",
-    "roofing Marion Illinois",
-    "roof contractor Carbondale",
+    "roofer Marion Illinois",
+    "roofing Carbondale Illinois",
+    "roof contractor Benton IL",
     "Herrin IL roofing",
     "Murphysboro roof repair",
     "West Frankfort roofing contractor",
@@ -51,13 +57,13 @@ export const metadata: Metadata = {
     "Johnston City roofing",
     "Anna IL roof repair",
     "Vienna Illinois roofing",
-    "Harrisburg IL roofer",
+    "Saline County roofer",
     // Insurance keywords
-    "insurance claim roofing",
+    "insurance claim roofing Harrisburg",
     "storm damage insurance claim IL",
     "hail damage roof repair",
     // Trust keywords
-    "licensed roofing contractor IL",
+    "licensed roofing contractor Harrisburg IL",
     "insured roofer Southern Illinois",
     "best roofer Benton IL",
   ],
@@ -73,9 +79,9 @@ export const metadata: Metadata = {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
   },
   openGraph: {
-    title: "Rannco Roofing | #1 Roofing Contractor in Southern Illinois",
+    title: "Rannco Roofing | #1 Roofing Contractor in Harrisburg & Southern Illinois",
     description:
-      "Southern Illinois' most trusted roofing contractor. Expert roof repairs, replacements & installations. 70+ years experience. Free estimates. Serving Benton, Marion, Carbondale & surrounding areas.",
+      "Harrisburg IL's trusted roofing contractor. Call (618) 594-1178! Expert roof repairs, replacements & installations. 70+ years experience. Free estimates. Serving all of Southern Illinois.",
     url: siteUrl,
     siteName: "Rannco Roofing",
     type: "website",
@@ -137,10 +143,19 @@ const jsonLd = {
     latitude: 37.7384,
     longitude: -88.5406,
   },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+1-618-594-1178",
+    contactType: "customer service",
+    email: "chood@rannco.com",
+    areaServed: "US",
+    availableLanguage: "English",
+  },
   areaServed: [
-    { "@type": "City", name: "Benton", addressRegion: "IL" },
+    { "@type": "City", name: "Harrisburg", addressRegion: "IL" },
     { "@type": "City", name: "Marion", addressRegion: "IL" },
     { "@type": "City", name: "Carbondale", addressRegion: "IL" },
+    { "@type": "City", name: "Benton", addressRegion: "IL" },
     { "@type": "City", name: "Herrin", addressRegion: "IL" },
     { "@type": "City", name: "Murphysboro", addressRegion: "IL" },
     { "@type": "City", name: "Carterville", addressRegion: "IL" },
@@ -149,7 +164,6 @@ const jsonLd = {
     { "@type": "City", name: "Du Quoin", addressRegion: "IL" },
     { "@type": "City", name: "Anna", addressRegion: "IL" },
     { "@type": "City", name: "Vienna", addressRegion: "IL" },
-    { "@type": "City", name: "Harrisburg", addressRegion: "IL" },
   ],
   openingHoursSpecification: [
     {
