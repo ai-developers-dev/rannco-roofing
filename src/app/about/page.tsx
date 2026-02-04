@@ -4,9 +4,22 @@ import { CTA } from "@/components/sections/cta";
 import { FAQ } from "@/components/sections/faq";
 
 export const metadata: Metadata = {
-  title: "About Us | Rannco Roofing",
+  title: "About Rannco Roofing | Trusted Roofers in Southern Illinois",
   description:
-    "Learn about Rannco Roofing, Southern Illinois' most trusted residential roofing company with over 70 years of roofing expertise and 30 years of insurance industry knowledge.",
+    "Meet Rannco Roofing - Southern Illinois' most trusted roofing contractor with 70+ years experience & 30 years insurance expertise. Licensed, insured & locally owned. Serving Benton, Marion, Carbondale & surrounding areas.",
+  keywords: [
+    "about Rannco Roofing",
+    "roofing company Benton IL",
+    "trusted roofer Southern Illinois",
+    "licensed roofing contractor Marion",
+    "family owned roofer Carbondale",
+    "insurance claim experts IL",
+  ],
+  openGraph: {
+    title: "About Rannco Roofing | 70+ Years Experience",
+    description:
+      "Southern Illinois' most trusted roofing contractor. 70+ years roofing experience, 30 years insurance knowledge. Licensed, insured & locally owned.",
+  },
 };
 
 const values = [

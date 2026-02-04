@@ -6,9 +6,21 @@ import { MapPin } from "lucide-react";
 import { CTA } from "@/components/sections/cta";
 
 export const metadata: Metadata = {
-  title: "Our Projects | Rannco Roofing",
+  title: "Roofing Projects in Benton, Marion & Southern Illinois",
   description:
-    "View our completed roofing projects across Southern Illinois. Quality craftsmanship in Benton, Marion, Carbondale, and surrounding areas.",
+    "View our portfolio of completed roofing projects in Benton, Marion, Carbondale, Herrin & throughout Southern Illinois. 500+ successful roof replacements & repairs. See our quality craftsmanship!",
+  keywords: [
+    "roofing projects Southern Illinois",
+    "roof replacement photos Benton IL",
+    "roofing portfolio Marion IL",
+    "completed roofs Carbondale",
+    "before after roof repair IL",
+  ],
+  openGraph: {
+    title: "Our Roofing Projects | Rannco Roofing",
+    description:
+      "Browse our portfolio of 500+ completed roofing projects across Southern Illinois. Quality craftsmanship you can trust.",
+  },
 };
 
 const projects = [

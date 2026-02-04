@@ -17,9 +17,24 @@ import {
 import { CTA } from "@/components/sections/cta";
 
 export const metadata: Metadata = {
-  title: "Our Services | Rannco Roofing",
+  title: "Roofing Services in Benton, Marion & Carbondale IL",
   description:
-    "Complete roofing services including repairs, replacements, maintenance, emergency services, and insurance claim support. Serving Southern Illinois.",
+    "Professional roofing services in Southern Illinois: roof replacement, repairs, emergency services, storm damage repair & insurance claims. Serving Benton, Marion, Carbondale, Herrin & surrounding areas. Free estimates!",
+  keywords: [
+    "roof replacement Benton IL",
+    "roof repair Marion IL",
+    "emergency roofing Carbondale",
+    "storm damage repair Southern Illinois",
+    "roofing services Herrin IL",
+    "shingle replacement West Frankfort",
+    "metal roofing Du Quoin IL",
+    "insurance claim roofing IL",
+  ],
+  openGraph: {
+    title: "Professional Roofing Services | Rannco Roofing",
+    description:
+      "Complete roofing services in Southern Illinois. Roof replacement, repairs, emergency services & insurance claim support. Free estimates!",
+  },
 };
 
 const services = [

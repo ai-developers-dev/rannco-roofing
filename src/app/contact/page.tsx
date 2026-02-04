@@ -3,9 +3,22 @@ import { Phone, Mail, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Rannco Roofing",
+  title: "Contact Rannco Roofing | Free Estimates in Southern Illinois",
   description:
-    "Get in touch with Rannco Roofing for a free quote on your roofing project. Serving Benton, Marion, Carbondale, and all of Southern Illinois.",
+    "Contact Rannco Roofing for a FREE roof inspection & estimate. Call (618) 218-4975 or email us. Serving Benton, Marion, Carbondale, Herrin, Murphysboro & all of Southern Illinois. 24/7 emergency service available!",
+  keywords: [
+    "contact roofer Benton IL",
+    "free roof estimate Marion",
+    "roofing quote Carbondale IL",
+    "emergency roofer Southern Illinois",
+    "roof inspection Herrin IL",
+    "call roofer West Frankfort",
+  ],
+  openGraph: {
+    title: "Contact Us for a Free Roofing Estimate | Rannco Roofing",
+    description:
+      "Get a FREE roof inspection & estimate. Call (618) 218-4975. Serving all of Southern Illinois with 24/7 emergency service.",
+  },
 };
 
 export default function ContactPage() {
