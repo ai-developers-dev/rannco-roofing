@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     "insurance claims",
     "roofing contractor",
   ],
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     title: "Rannco Roofing | Residential Roofing in Southern Illinois",
     description:
