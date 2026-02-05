@@ -164,6 +164,7 @@ const jsonLd = {
     { "@type": "City", name: "Du Quoin", addressRegion: "IL" },
     { "@type": "City", name: "Anna", addressRegion: "IL" },
     { "@type": "City", name: "Vienna", addressRegion: "IL" },
+    { "@type": "City", name: "Thompsonville", addressRegion: "IL" },
   ],
   openingHoursSpecification: [
     {

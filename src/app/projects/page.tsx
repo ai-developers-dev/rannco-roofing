@@ -136,6 +136,14 @@ const projects = [
     location: "Harrisburg, IL",
     category: "Replacement",
   },
+  {
+    id: 15,
+    image: "/images/projects/IMG_1543.PNG",
+    title: "Eldorado Redemption Church",
+    description: "Commercial church roof replacement project",
+    location: "Thompsonville, IL",
+    category: "Commercial",
+  },
 ];
 
 export default function ProjectsPage() {

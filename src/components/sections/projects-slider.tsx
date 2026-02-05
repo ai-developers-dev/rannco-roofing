@@ -37,6 +37,12 @@ const projects = [
     title: "Complete Roof Restoration",
     caption: "Full tear-off and replacement with architectural shingles in Harrisburg, IL",
   },
+  {
+    id: 6,
+    image: "/images/projects/IMG_1543.PNG",
+    title: "Eldorado Redemption Church",
+    caption: "Commercial church roof replacement in Thompsonville, IL",
+  },
 ];
 
 export function ProjectsSlider() {
