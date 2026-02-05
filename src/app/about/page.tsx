@@ -154,7 +154,7 @@ export default function AboutPage() {
               <div
                 className="aspect-square rounded-2xl overflow-hidden bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80')`,
+                  backgroundImage: `url('/images/projects/IMG_6647.PNG')`,
                 }}
               />
               <div className="absolute bottom-4 left-4 sm:-bottom-6 sm:-left-6 bg-primary text-primary-foreground p-4 sm:p-6 rounded-xl shadow-xl">

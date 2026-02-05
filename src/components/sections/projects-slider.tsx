@@ -9,33 +9,33 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1632759145351-1d592919f522?w=1200&q=80",
-    title: "Complete Roof Replacement",
-    caption: "Full tear-off and installation of architectural shingles in Benton, IL",
+    image: "/images/projects/IMG_6650.PNG",
+    title: "Luxury Home Roof Replacement",
+    caption: "Complete architectural shingle installation on brick estate in Harrisburg, IL",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-    title: "Storm Damage Repair",
-    caption: "Emergency repairs after severe weather in Marion, IL",
+    image: "/images/projects/IMG_6655.PNG",
+    title: "Two-Story Home Re-Roof",
+    caption: "Full roof replacement with premium shingles in Harrisburg, IL",
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
-    title: "New Construction Roofing",
-    caption: "Premium roofing installation for new home build in Carbondale, IL",
+    image: "/images/projects/IMG_1540.PNG",
+    title: "Residential Roof Replacement",
+    caption: "New roof installation on country home in Harrisburg, IL",
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80",
-    title: "Metal Roof Installation",
-    caption: "Modern metal roofing system in Herrin, IL",
+    image: "/images/projects/IMG_6647.PNG",
+    title: "Quality Shingle Installation",
+    caption: "Expert craftsmanship on residential roofing project in Harrisburg, IL",
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1598228723793-52759bba239c?w=1200&q=80",
-    title: "Residential Re-Roof",
-    caption: "Complete shingle replacement in West Frankfort, IL",
+    image: "/images/projects/IMG_6657.PNG",
+    title: "Complete Roof Restoration",
+    caption: "Full tear-off and replacement with architectural shingles in Harrisburg, IL",
   },
 ];
 
