@@ -33,6 +33,15 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# local sqlite
+local.db
+local.db-journal
+local.db-shm
+local.db-wal
+
+# admin uploads (when using local fallback)
+/public/uploads
+
 # vercel
 .vercel
 

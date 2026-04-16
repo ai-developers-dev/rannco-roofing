@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram, LogIn } from "lucide-react";
 
 const navigation = {
   services: [
@@ -138,7 +138,7 @@ export function Footer() {
             <p className="text-background/60 text-sm">
               © {new Date().getFullYear()} Rannco Roofing. All rights reserved.
             </p>
-            <div className="flex space-x-6 text-sm">
+            <div className="flex items-center space-x-6 text-sm">
               <Link
                 href="/privacy"
                 className="text-background/60 hover:text-white transition-colors"
@@ -150,6 +150,13 @@ export function Footer() {
                 className="text-background/60 hover:text-white transition-colors"
               >
                 Terms of Service
+              </Link>
+              <Link
+                href="/admin"
+                className="text-background/40 hover:text-white transition-colors inline-flex items-center gap-1.5"
+              >
+                <LogIn className="h-3.5 w-3.5" />
+                Admin
               </Link>
             </div>
           </div>
