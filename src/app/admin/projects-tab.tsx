@@ -395,9 +395,22 @@ export function ProjectsTab() {
     const files = Array.from(e.target.files);
 
     try {
-      for (const file of files) {
+      for (const rawFile of files) {
+        let file: File | Blob = rawFile;
+        let ext = rawFile.name.split(".").pop()?.toLowerCase() || "jpg";
+
+        if (ext === "heic" || ext === "heif" || rawFile.type === "image/heic" || rawFile.type === "image/heif") {
+          const heic2any = (await import("heic2any")).default;
+          const converted = await heic2any({
+            blob: rawFile,
+            toType: "image/jpeg",
+            quality: 0.85,
+          });
+          file = Array.isArray(converted) ? converted[0] : converted;
+          ext = "jpg";
+        }
+
         const baseName = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-        const ext = file.name.split(".").pop()?.toLowerCase() || "jpg";
         const fileName = `projects/${baseName}.${ext}`;
 
         // Client-side upload to Vercel Blob (no size limit)
