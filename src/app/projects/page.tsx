@@ -26,9 +26,6 @@ export default function ProjectsPage() {
       <section className="py-20 bg-foreground text-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <span className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium mb-6">
-              Our Work
-            </span>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Our Projects
             </h1>
