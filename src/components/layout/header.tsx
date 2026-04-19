@@ -62,6 +62,14 @@ export function Header() {
             >
               Get Started
             </a>
+            <a
+              href="https://ranncoconstruction.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-primary text-primary hover:bg-primary hover:text-white h-10 px-4"
+            >
+              <span className="leading-tight text-center text-xs">Need<br />Construction?</span>
+            </a>
           </div>
 
           {/* Mobile Menu */}
@@ -119,6 +127,15 @@ export function Header() {
                     className="inline-flex items-center justify-center w-full whitespace-nowrap rounded-md text-base font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 mt-4"
                   >
                     Get Started
+                  </a>
+                  <a
+                    href="https://ranncoconstruction.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsOpen(false)}
+                    className="inline-flex items-center justify-center w-full whitespace-nowrap rounded-md text-base font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-primary text-primary hover:bg-primary hover:text-white h-11 px-8 mt-3"
+                  >
+                    Need Construction?
                   </a>
                 </div>
               </div>
