@@ -63,7 +63,7 @@ export function Header() {
               Get Started
             </a>
             <a
-              href="https://ranncoconstruction.com/"
+              href="https://rannco.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-primary text-primary hover:bg-primary hover:text-white h-10 px-4"
@@ -129,7 +129,7 @@ export function Header() {
                     Get Started
                   </a>
                   <a
-                    href="https://ranncoconstruction.com/"
+                    href="https://rannco.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setIsOpen(false)}
